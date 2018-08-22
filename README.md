@@ -8,3 +8,7 @@ The topics that I have covered in this talks are:
 5. Special methods (enumerate, reversed, sorted, zip, range)
 6. Nested for loops and there issues
 7. Generators in Python
+
+You can download my presentation from [here](https://drive.google.com/drive/folders/1BvBHuQCwhzt9a6dGbYTOfILl2r9DMwOB?usp=sharing)
+
+
