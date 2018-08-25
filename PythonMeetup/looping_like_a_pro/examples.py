@@ -1,4 +1,3 @@
-#
 # # Example #1
 # import random
 #
@@ -66,6 +65,26 @@
 #
 # #Example of Genrators
 #
+
+
+def food_items():
+    yield 'Milk'
+    yield 'Butter'
+    yield 'Eggs'
+    yield 'Apple'
+
+
+food_item_generator = food_items()
+
+print(next(food_item_generator))
+print(next(food_item_generator))
+print(next(food_item_generator))
+print(next(food_item_generator))
+
+
+# for item in food_items():
+#     print(item)
+
 # class Person:
 #     def __init__(self, name, is_anit_social, is_bad_guy):
 #         self.name = name
@@ -74,10 +93,10 @@
 #
 #     def greeting(self, person):
 #         print('{} says Hello {}'.format( self.name, person.name))
-#
-#
+
+
 # people_of_gulshan = [Person('Sharjeel', True, False), Person('Omar', False, True), Person('Subhan', False, False)]
-# people_of_buffer_zone = [Person('Osama', True, True), Person('Hamza', False, True), Person('Raza', False, True)]
+# people_of_buffer_zone = [Person('Hamza', False, False),  Person('Raza', False, False), Person('Osama', False, True)]
 #
 # for person_of_gulshan in people_of_gulshan:
 #     for person_of_buffer_zone in people_of_buffer_zone:
@@ -106,11 +125,15 @@
 #                     break
 #                 person_of_gulshan.greeting(person_of_buffer_zone)
 #
+
+
 # def greeting_group():
 #     for person_of_gulshan in people_of_gulshan:
 #         if person_of_gulshan.is_bad_guy is False:
 #             for person_of_buffer_zone in people_of_buffer_zone:
 #                 if person_of_buffer_zone.is_anti_social is False:
+#                     if person_of_buffer_zone.is_bad_guy:
+#                         return
 #                     yield person_of_gulshan, person_of_buffer_zone
 #
 #
