@@ -11,4 +11,7 @@ The topics that I have covered in this talks are:
 
 **You can download my presentation from** [**here**](https://drive.google.com/drive/folders/1BvBHuQCwhzt9a6dGbYTOfILl2r9DMwOB?usp=sharing)
 
+For any query or information feel free to contact @ osama.binbashir@yahoo.com
+
+
 
